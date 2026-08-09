@@ -1,1 +1,0 @@
-# Stockanalyzer-v3
