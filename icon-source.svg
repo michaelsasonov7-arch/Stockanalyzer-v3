@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#FF8A00"/>
+
+  <defs>
+    <!-- Bear head = two ear circles + one big head circle, unioned -->
+    <clipPath id="bearShape">
+      <circle cx="168" cy="150" r="58"/>
+      <circle cx="344" cy="150" r="58"/>
+      <circle cx="256" cy="290" r="164"/>
+    </clipPath>
+  </defs>
+
+  <!-- Stripe field, clipped to the bear silhouette -->
+  <g clip-path="url(#bearShape)">
+    <rect x="40" y="80"  width="432" height="392" fill="#0D0D0D"/>
+    <rect x="40" y="114" width="432" height="22" fill="#FF8A00"/>
+    <rect x="40" y="152" width="432" height="22" fill="#FF8A00"/>
+    <rect x="40" y="190" width="432" height="22" fill="#FF8A00"/>
+    <rect x="40" y="228" width="432" height="22" fill="#FF8A00"/>
+    <rect x="40" y="266" width="432" height="22" fill="#FF8A00"/>
+    <rect x="40" y="304" width="432" height="22" fill="#FF8A00"/>
+    <rect x="40" y="342" width="432" height="22" fill="#FF8A00"/>
+    <rect x="40" y="380" width="432" height="22" fill="#FF8A00"/>
+    <rect x="40" y="418" width="432" height="22" fill="#FF8A00"/>
+  </g>
+
+  <!-- Inner ears (negative space) -->
+  <circle cx="168" cy="150" r="26" fill="#FF8A00"/>
+  <circle cx="344" cy="150" r="26" fill="#FF8A00"/>
+
+  <!-- Muzzle patch -->
+  <ellipse cx="256" cy="336" rx="66" ry="50" fill="#FF8A00"/>
+
+  <!-- Eyes -->
+  <circle cx="200" cy="260" r="15" fill="#0D0D0D"/>
+  <circle cx="312" cy="260" r="15" fill="#0D0D0D"/>
+
+  <!-- Nose -->
+  <ellipse cx="256" cy="318" rx="19" ry="14" fill="#0D0D0D"/>
+</svg>
